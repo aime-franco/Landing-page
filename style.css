@@ -3,12 +3,7 @@
     margin: 0;
     padding: 0;
 }
-html {
-    background-color: black;
-}
-body {
-    padding-bottom: 1000px;
-}
+
 .first-title {
     font-size: 48px;
     font-weight: 900;
@@ -34,9 +29,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid grey;
     flex-shrink: 0;
 }
 .header {
@@ -53,6 +45,7 @@ a:hover {
 .blog-text, a {
     font-size: 18px;
     color: #e5e7eb;
+    opacity: 0.80;
 }
 .blog-text {
     width: 300px;
@@ -105,8 +98,7 @@ a:hover {
     border-radius: 10px;
 }
 .section-two {
-    background-color: white;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     padding-top:20px;
@@ -131,7 +123,7 @@ a:hover {
 
 /* section 3 */
 .section-three {
-    height: 250px;
+    height: 270px;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -155,4 +147,60 @@ a:hover {
 .author-div {
     display: flex;
     justify-content: end;
+}
+/* section 4 */
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.back-color {
+    background-color: #3882f6;
+    width: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#title {
+    color: #f9faf8;
+}
+
+#description {
+    color: #f9faf8;
+    font-weight: normal;
+    opacity: 0.80;
+
+}
+#sign-up {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#sign-up:hover {
+    cursor: pointer;
+}
+.copyright {
+    background-color: #1f2937;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+.copy {
+    font-size: 15px;
+    color: #f9faf8;
 }
