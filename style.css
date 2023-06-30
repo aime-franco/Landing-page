@@ -3,17 +3,17 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     background-color: black;
 }
-
+body {
+    padding-bottom: 1000px;
+}
 .first-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
-
 a{
     text-decoration: none;
     height: fit-content;
@@ -25,36 +25,31 @@ a:hover {
 }
 
 #logo {
-    width: 100px;
     border: none;
-    border-radius: 10px;
+    border-radius: 14px;
 }
-
 .section-one {
     background-color: #1f2937;
-    height: 380px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 25px;
     padding-top: 15px;
     border-top: 1px solid grey;
     flex-shrink: 0;
 }
-
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
 }
-
 .header-links {
     width: 200px;
     display: flex;
     height: fit-content;
     justify-content: space-around;
 }
-
 .blog-text, a {
     font-size: 18px;
     color: #e5e7eb;
@@ -64,7 +59,6 @@ a:hover {
     font-weight: lighter;
     margin-top: 10px;
 }
-
 .first-sign {
     background-color: #3882f6;
     padding-left: 30px;
@@ -82,7 +76,6 @@ a:hover {
 .first-sign:hover {
     cursor: pointer;
 }
-
 .profile-pic {
     margin-right: 120px;
 }
@@ -97,46 +90,69 @@ a:hover {
    justify-content: space-around;
    
 }
-
 .text {
   margin-left: 120px;
 
 }
-/* 
-
- */
-
-
-
-h1 {
+/* section 2*/
+.content-two {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-}
-.img-content1 {
-    height: 200px;
-    border-radius: 10px;
 }
 .img-content {
    height: 200px;
     border-radius: 10px;
 }
 .section-two {
-    background-color: #e5e7eb;
+    background-color: white;
     height: 350px;
     display: flex;
     flex-direction: column;
+    padding-top:20px;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
 }
-
 .content-pic {
     display: flex;
+    width: 800px;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 .title {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+}
+.photo-text {
+    width: 150px;
+}
+
+/* section 3 */
+.section-three {
+    height: 250px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    width: 350px;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.author-div {
+    display: flex;
+    justify-content: end;
 }
